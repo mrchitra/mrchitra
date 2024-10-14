@@ -1,0 +1,112 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #000;
+    color: #0f0;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #0f0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hacker-bg {
+    background: url('matrix-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hacker-bg h1 {
+    font-size: 3rem;
+    color: #0f0;
+    text-shadow: 0px 0px 10px #0f0;
+}
+
+.hacker-bg p {
+    font-size: 1.5rem;
+    
+}
+
+#projects h2, #contact h2 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+#projects ul {
+    list-style-type: none;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+#projects ul li {
+    background-color: #111;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#projects ul li a {
+    color: #0f0;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+#projects ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    color: #0f0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #0f0; /* Icon color */
+    font-size: 32px; /* Icon size increase */
+    text-decoration: none; /* Remove underline */
+}
+
+.social-media a:hover {
+    color: #fff; /* Change color on hover */
+}
+
